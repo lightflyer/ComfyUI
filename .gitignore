@@ -5,8 +5,8 @@ __pycache__/
 !/input/example.png
 /models/
 /temp/
-/custom_nodes/
-!custom_nodes/example_node.py.example
+# /custom_nodes/ - 注释掉，因为现在使用子模块管理
+# !custom_nodes/example_node.py.example
 extra_model_paths.yaml
 /.vs
 .vscode/
