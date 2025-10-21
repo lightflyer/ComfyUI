@@ -1,0 +1,3 @@
+[submodule "custom_nodes"]
+	path = custom_nodes
+	url = ssh://git@aitop.anta.com:30004/ANTA/ai-design/custom_nodes.git
