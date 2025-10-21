@@ -16,6 +16,13 @@ from importlib.metadata import version
 import requests
 from typing_extensions import NotRequired
 
+import sys
+#sys.path.insert(0, "/Users/user./mnt/codes/comfyui-proxy/lib/ComfyUI/")
+
+COMFYUI_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(COMFYUI_DIR))
+
+
 from utils.install_util import get_missing_requirements_message, requirements_path
 
 from comfy.cli_args import DEFAULT_VERSION_STRING
