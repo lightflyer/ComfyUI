@@ -2,6 +2,7 @@ __pycache__/
 *.py[cod]
 /output/
 /input/
+!/input/
 !/input/example.png
 /models/
 /temp/
